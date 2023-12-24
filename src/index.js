@@ -11,7 +11,14 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', {
+        title: 'Home',
+        navs: [
+            { name: 'Personal Chat', url: '/personal' },
+            { name: 'Chat', url: '/chat' },
+            { name: 'Shorten', url: '/shorten' }
+        ]
+    });
 });
 
 app.listen(PORT, () => {
