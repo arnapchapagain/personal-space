@@ -1,0 +1,27 @@
+{
+  "name": "personal-space",
+  "version": "1.0.0",
+  "description": "A personal space made for ease-of-life of programmers and regular peoples.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirshakbohara/personal-space.git"
+  },
+  "author": "Sirshak Bohara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sirshakbohara/personal-space/issues"
+  },
+  "homepage": "https://github.com/sirshakbohara/personal-space#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
